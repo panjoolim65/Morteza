@@ -1,0 +1,6 @@
+ngrok http 80 \
+  --oauth github \
+  --oauth-client-id "{client id}" \
+  --oauth-client-secret "{client secret}" \
+  --oauth-scope "repo" \
+  --oauth-scope "user"
